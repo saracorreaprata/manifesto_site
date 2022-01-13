@@ -23,7 +23,7 @@ h3{
 }
 
 p{
-    text-align: center;
+    text-align:center;
     font-family: var(--default-font-family);
     color: var(--nav-primary-color);
     font-size: 15px;
@@ -60,6 +60,14 @@ p2{
     }
 }
 
+#social-media{
+    text-align: center;
+    
+}
+
+#media{
+    padding-right: 5px;
+}
 
 
 
