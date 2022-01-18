@@ -6,7 +6,6 @@
 .landing{
    background: url(../imgs/background.jpg);
    height: 100vh;
-   position: fixed;
    padding-top: 45px;
 }
 
@@ -46,6 +45,15 @@ p2{
     font-size: 15px;
 }
 
+#social-media{
+    text-align: center;
+    
+}
+
+#media{
+    padding-right: 10px;
+}
+
 @media (max-width: 600px) { 
     p{
         text-align: center;
@@ -70,13 +78,33 @@ p2{
     }
 }
 
-#social-media{
-    text-align: center;
-    
-}
 
-#media{
-    padding-right: 10px;
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+    p{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .img-fluid{
+        width: 10%;
+    }
+
+    .img-fluid-heading{
+        width: 30%;
+    }
+
+    .img-fluid-logo{
+        width: 50%;
+    }
+
+    .landing{
+        height: fit-content;
+        position: absolute; 
+        bottom: 0px;
+    }
 }
 
 
