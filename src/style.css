@@ -55,7 +55,7 @@ p2{
     padding-right: 10px;
 }
 
-@media (max-width: 812px) { 
+@media (max-width: 896px) { 
     p{
         text-align: center;
         padding-right: 20px;
@@ -67,7 +67,7 @@ p2{
     }
 
     .img-fluid-heading{
-        width: 40%;
+        width: 35%;
     }
 
     .img-fluid-logo{
@@ -75,7 +75,7 @@ p2{
     }
 
     .landing{
-        padding-top: 5px;
+        padding-top: 0vw;
     }
 }
 
@@ -93,6 +93,9 @@ and (max-device-width : 736px) {
 
     h1{
         height: 50px;
+    }
+    h2{
+        margin-bottom: 2vw;
     }
 
     .img-fluid{
