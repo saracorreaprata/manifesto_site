@@ -7,6 +7,7 @@
    background: url(../imgs/background.jpg);
    height: 100vh;
    position: fixed;
+   padding-top: 45px;
 }
 
 h1{
@@ -63,6 +64,10 @@ p2{
     .img-fluid-logo{
         width: 50%;
     }
+
+    .landing{
+        padding-top: 5px;
+    }
 }
 
 #social-media{
@@ -75,27 +80,6 @@ p2{
 }
 
 
-@media (max-width: 500px) { 
-    p{
-        text-align: center;
-        padding-right: 20px;
-        padding-left: 20px;
-    }
 
-    .img-fluid{
-        width: 10%;
-    }
 
-    .img-fluid-heading{
-        width: 30%;
-    }
 
-    .img-fluid-logo{
-        width: 50%;
-    }
-
-    .landing{
-        height: 100vh;
-        position: fixed;
-    }
-}
