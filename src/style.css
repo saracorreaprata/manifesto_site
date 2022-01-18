@@ -6,10 +6,7 @@
 .landing{
    background: url(../imgs/background.jpg);
    height: 100vh;
-}
-
-body{
-    overflow: hidden;
+   position: fixed;
 }
 
 h1{
@@ -78,4 +75,27 @@ p2{
 }
 
 
+@media (max-width: 500px) { 
+    p{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 
+    .img-fluid{
+        width: 10%;
+    }
+
+    .img-fluid-heading{
+        width: 30%;
+    }
+
+    .img-fluid-logo{
+        width: 50%;
+    }
+
+    .landing{
+        height: 100vh;
+        position: fixed;
+    }
+}
