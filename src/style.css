@@ -5,7 +5,7 @@
 
 .landing{
    background: url(../imgs/background.jpg);
-   height: 100vh;
+   height: 130vh;
    padding-top: 45px;
    position: fixed;
 }
@@ -55,7 +55,11 @@ p2{
     padding-right: 10px;
 }
 
-@media (max-width: 896px) { 
+/*iphone X */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) { 
     p{
         text-align: center;
         padding-right: 20px;
@@ -75,9 +79,118 @@ p2{
     }
 
     .landing{
-        padding-top: 0vw;
+        height: fit-content;
+        position: absolute; 
+        bottom: 0px;
     }
 }
+
+/*iphone 678 plus*/
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+    p{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 15px;
+        
+    }
+
+    h1{
+        height: 50px;
+    }
+    h2{
+        margin-bottom: 2vw;
+    }
+
+    .img-fluid{
+        width: 10%;
+    }
+
+    .img-fluid-heading{
+        width: 30%;
+        position: relative;
+    }
+
+    .img-fluid-logo{
+        width: 50%;
+        margin-bottom: -12vw;
+    }
+
+    .landing{
+        height: fit-content;
+        position: absolute; 
+        bottom: 0px;
+    }
+}
+
+/*ipad*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    p{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 25px;
+        
+    }
+
+    .img-fluid{
+        width: 7%;
+    }
+
+    .img-fluid-heading{
+        width: 25%;
+        margin-top: 20px;
+    }
+
+    .img-fluid-logo{
+        width: 35%;
+        margin-bottom: 0vw;
+    }
+
+    .landing{
+        height: fit-content;
+        position: absolute; 
+        bottom: 0px;
+    }
+
+}
+
+/*iphone 678 */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+    p{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .img-fluid{
+        width: 10%;
+    }
+
+    .img-fluid-heading{
+        width: 35%;
+    }
+
+    .img-fluid-logo{
+        width: 50%;
+    }
+
+    .landing{
+        height: fit-content;
+        position: absolute; 
+        bottom: -100px;
+    }
+}
+
 
 
 @media only screen 
@@ -119,6 +232,78 @@ and (max-device-width : 736px) {
     }
 }
 
+/*ipad*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    p{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 25px;
+        
+    }
+
+    .img-fluid{
+        width: 7%;
+    }
+
+    .img-fluid-heading{
+        width: 25%;
+        margin-top: 20px;
+    }
+
+    .img-fluid-logo{
+        width: 35%;
+        margin-bottom: 0vw;
+    }
+
+    .landing{
+        height: fit-content;
+        position: absolute; 
+        bottom: 0px;
+    }
+
+}
+
+/*ipad pro*/
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) {
+    p{
+        text-align: center;
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: 33px;
+        
+    }
+
+    h1{
+        height: 17vw;
+    }
+
+    .img-fluid{
+        width: 8%;
+
+    }
+
+    .img-fluid-heading{
+        width: 25%;
+    }
+
+    .img-fluid-logo{
+        width: 35%;
+    }
+
+    .landing{
+        height: 100vh;
+        padding-top: 45px;
+        position: fixed;
+     }
+
+}
 
 
 
