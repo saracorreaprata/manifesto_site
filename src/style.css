@@ -80,8 +80,9 @@ and (max-device-width : 812px) {
 
     .landing{
         height: fit-content;
-        position: absolute; 
+        position: absolute;
         bottom: 0px;
+        padding-top: 15px;
     }
 }
 
@@ -95,12 +96,12 @@ and (max-device-width : 736px) {
         padding-right: 20px;
         padding-left: 20px;
         padding-top: 15px;
-        
     }
 
     h1{
         height: 50px;
     }
+
     h2{
         margin-bottom: 2vw;
     }
@@ -165,7 +166,7 @@ and (max-device-width : 1024px) {
 
 @media only screen 
 and (min-device-width : 375px) 
-and (max-device-width : 667px) { 
+and (max-device-width : 812px) { 
     p{
         text-align: center;
         padding-right: 20px;
@@ -188,6 +189,7 @@ and (max-device-width : 667px) {
         height: fit-content;
         position: absolute; 
         bottom: -100px;
+        top: -10px;
     }
 }
 
