@@ -86,6 +86,11 @@ and (max-device-width : 736px) {
         text-align: center;
         padding-right: 20px;
         padding-left: 20px;
+        padding-top: 3vw;
+    }
+
+    h1{
+        height: 70px;
     }
 
     .img-fluid{
@@ -94,10 +99,13 @@ and (max-device-width : 736px) {
 
     .img-fluid-heading{
         width: 30%;
+        position: relative;
     }
 
     .img-fluid-logo{
         width: 50%;
+        margin-bottom: -10vw;
+    
     }
 
     .landing{
