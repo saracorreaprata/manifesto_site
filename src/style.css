@@ -8,6 +8,10 @@
    height: 100vh;
 }
 
+body{
+    overflow: hidden;
+}
+
 h1{
     text-align: center;
     padding-top: 70px;
