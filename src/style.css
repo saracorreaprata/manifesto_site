@@ -55,185 +55,6 @@ p2{
     padding-right: 10px;
 }
 
-/*iphone X */
-
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px) { 
-    p{
-        text-align: center;
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-
-    .img-fluid{
-        width: 10%;
-    }
-
-    .img-fluid-heading{
-        width: 35%;
-    }
-
-    .img-fluid-logo{
-        width: 50%;
-    }
-
-    .landing{
-        height: fit-content;
-        position: absolute;
-        bottom: 0px;
-        padding-top: 15px;
-    }
-}
-
-/*iphone 678 plus*/
-
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) {
-    p{
-        text-align: center;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-top: 15px;
-    }
-
-    h1{
-        height: 50px;
-    }
-
-    h2{
-        margin-bottom: 2vw;
-    }
-
-    .img-fluid{
-        width: 10%;
-    }
-
-    .img-fluid-heading{
-        width: 30%;
-        position: relative;
-    }
-
-    .img-fluid-logo{
-        width: 50%;
-        margin-bottom: -12vw;
-    }
-
-    .landing{
-        height: fit-content;
-        position: absolute; 
-        bottom: 0px;
-    }
-}
-
-/*ipad*/
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-    p{
-        text-align: center;
-        padding-right: 20px;
-        padding-left: 20px;
-        font-size: 25px;
-        
-    }
-
-    .img-fluid{
-        width: 7%;
-    }
-
-    .img-fluid-heading{
-        width: 25%;
-        margin-top: 20px;
-    }
-
-    .img-fluid-logo{
-        width: 35%;
-        margin-bottom: 0vw;
-    }
-
-    .landing{
-        height: fit-content;
-        position: absolute; 
-        bottom: 0px;
-    }
-
-}
-
-/*iphone 678 */
-
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px) { 
-    p{
-        text-align: center;
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-
-    .img-fluid{
-        width: 10%;
-    }
-
-    .img-fluid-heading{
-        width: 35%;
-    }
-
-    .img-fluid-logo{
-        width: 50%;
-    }
-
-    .landing{
-        height: fit-content;
-        position: absolute; 
-        bottom: -100px;
-        top: -10px;
-    }
-}
-
-
-
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) {
-    p{
-        text-align: center;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-top: 15px;
-        
-    }
-
-    h1{
-        height: 50px;
-    }
-    h2{
-        margin-bottom: 2vw;
-    }
-
-    .img-fluid{
-        width: 10%;
-    }
-
-    .img-fluid-heading{
-        width: 30%;
-        position: relative;
-    }
-
-    .img-fluid-logo{
-        width: 50%;
-        margin-bottom: -12vw;
-    }
-
-    .landing{
-        height: fit-content;
-        position: absolute; 
-        bottom: 0px;
-    }
-}
-
 /*ipad*/
 
 @media only screen 
@@ -306,6 +127,80 @@ and (max-device-width : 1366px) {
      }
 
 }
+
+
+@media (max-width: 576px) { 
+    
+  
+    p{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 15px;
+        
+    }
+
+    .img-fluid{
+        width: 8%;
+    }
+
+    .img-fluid-heading{
+        width: 25%;
+        margin-top: 20px;
+    }
+
+    .img-fluid-logo{
+        width: 35%;
+        margin-bottom: 0vw;
+    }
+
+    .landing{
+        height: fit-content;
+        position: absolute; 
+        bottom: 0px;
+    }
+
+}
+/*iphone x*/
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) { 
+    
+  
+    p{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 40px;
+        font-size: 15px;
+        
+    }
+
+    .img-fluid{
+        width: 8%;
+    }
+
+    .img-fluid-heading{
+        width: 25%;
+        margin-top: 20px;
+    }
+
+    .img-fluid-logo{
+        width: 35%;
+        margin-bottom: 0vw;
+    }
+
+    .landing{
+        height: fit-content;
+        position: absolute; 
+        bottom: 0px;
+    }
+
+}
+
+
+
+
 
 
 
