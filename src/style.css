@@ -137,7 +137,6 @@ and (max-device-width : 1366px) {
         padding-right: 20px;
         padding-left: 20px;
         font-size: 15px;
-        
     }
 
     .img-fluid{
@@ -157,23 +156,27 @@ and (max-device-width : 1366px) {
     .landing{
         height: fit-content;
         position: absolute; 
-        bottom: 0px;
+
     }
 
 }
 /*iphone x*/
 
 @media only screen 
-and (min-device-width : 1024px) 
-and (max-device-width : 1366px) { 
+and (min-device-width : 375px) 
+and (max-device-width : 817px) { 
     
   
     p{
         text-align: center;
         padding-right: 20px;
-        padding-left: 40px;
+        padding-left: 20px;
         font-size: 15px;
         
+    }
+
+    h1{
+        padding-top: 10px;
     }
 
     .img-fluid{
@@ -181,8 +184,7 @@ and (max-device-width : 1366px) {
     }
 
     .img-fluid-heading{
-        width: 25%;
-        margin-top: 20px;
+        width: 30%;
     }
 
     .img-fluid-logo{
@@ -192,8 +194,43 @@ and (max-device-width : 1366px) {
 
     .landing{
         height: fit-content;
-        position: absolute; 
-        bottom: 0px;
+        
+    }
+
+}
+
+@media(max-width : 491px) { 
+    
+  
+    p{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 15px;
+        
+    }
+
+    h1{
+        padding-top: 20px;
+    }
+
+
+    .img-fluid{
+        width: 8%;
+    }
+
+    .img-fluid-heading{
+        width: 30%;
+    }
+
+    .img-fluid-logo{
+        width: 35%;
+        margin-bottom: 0vw;
+    }
+
+    .landing{
+        height: fit-content;
+        
     }
 
 }
