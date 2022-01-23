@@ -199,7 +199,7 @@ and (max-device-width : 817px) {
 
 }
 
-@media(max-width : 491px) { 
+@media(max-width : 575px) { 
     
   
     p{
@@ -211,7 +211,7 @@ and (max-device-width : 817px) {
     }
 
     h1{
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
 
